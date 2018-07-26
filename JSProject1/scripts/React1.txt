@@ -1,0 +1,30 @@
+React app
+
+HTML
+    <div id ="app"></div>
+
+CSS
+    .person{
+    border: 1px solid #ccc;
+    width: 200px;  
+    }
+
+JS
+    function Person(props){
+    
+    return (
+        <div className="person">
+        <h1>{props.name}</h1>
+        <p>{props.age}</p>
+        </div>
+    );
+    }
+
+    var app = (
+    <div>
+        <Person name="DM" age="22"/>
+        <Person name="CM" age="12"/>
+    </div>
+    );
+
+    ReactDOM.render(app, document.querySelector('#app'));
