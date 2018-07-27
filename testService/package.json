@@ -1,0 +1,19 @@
+{
+  "name": "testservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.30",
+    "serverless-offline": "^3.25.6"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.282.1",
+    "uuid": "^3.3.2"
+  }
+}

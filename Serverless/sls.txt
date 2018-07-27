@@ -1,0 +1,15 @@
+SLS commands
+Dir: C:\Users\x3gx\Desktop\Dev Projects\Serverless\testService
+Create a service: sls create -t aws-nodejs -p restapi
+	next, run: npm init (accept all the prompts)
+	next, run: npm install --save-dev serverless-offline
+	next, run: npm install --save-dev serverless-dynamodb-local
+	next, run: npm install --save aws-sdk
+	next, run: npm install --save uuid
+	next, run: sls dynamodb install
+
+start db: sls dynamodb start
+Invoke local: sls invoke local -f hello
+Invoke deployed: sls invoke -f hello
+Deploy function: sls deploy function --function hello
+start the server (offline ... locally): sls offline start

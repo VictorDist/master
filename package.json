@@ -1,0 +1,23 @@
+{
+  "name": "master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorDist/master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorDist/master/issues"
+  },
+  "homepage": "https://github.com/VictorDist/master#readme",
+  "devDependencies": {
+    "serverless-offline": "^3.25.6"
+  },
+  "dependencies": {},
+  "description": ""
+}
